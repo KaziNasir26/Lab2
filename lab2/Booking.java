@@ -19,6 +19,7 @@ public class Booking extends Entity {
         return clientId;
     }
 
+
     public void setClientId(int clientId) {
         this.clientId = clientId;
     }
