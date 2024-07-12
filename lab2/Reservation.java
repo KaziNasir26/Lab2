@@ -14,5 +14,36 @@ public class Reservation extends Entity {
         this.endDate = endDate;
     }
 
+    // Getters and setters
+    public int getClientId() {
+        return clientId;
+    }
 
+    public void setClientId(int clientId) {
+        this.clientId = clientId;
+    }
+
+    public int getPetId() {
+        return petId;
+    }
+
+    public void setPetId(int petId) {
+        this.petId = petId;
+    }
+
+    public String getStartDate() {
+        return startDate;
+    }
+
+    public void setStartDate(String startDate) {
+        this.startDate = startDate;
+    }
+
+    public String getEndDate() {
+        return endDate;
+    }
+
+    public void setEndDate(String endDate) {
+        this.endDate = endDate;
+    }
 }
