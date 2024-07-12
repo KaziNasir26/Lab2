@@ -26,6 +26,7 @@ public class Main {
         Reservation reservation = new Reservation(1, 1, 1, "2024-07-01", "2024-07-10");
         reservationService.addReservation(reservation);
 
+
         // Create a billing record
         Billing billing = new Billing(1, 1, 1, 300.00, "2024-07-11");
         billingService.addBilling(billing);
