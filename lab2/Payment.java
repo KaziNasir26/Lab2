@@ -9,7 +9,8 @@ public class Payment extends Entity {
     public Payment(int id, int billingId, double amountPaid, String paymentDate, String paymentMethod) {
         setId(id);
         this.billingId = billingId;
-
+        this.amountPaid = amountPaid;
+        this.paymentDate = paymentDate;
         this.paymentMethod = paymentMethod;
     }
 
