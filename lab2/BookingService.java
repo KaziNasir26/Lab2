@@ -19,5 +19,12 @@ public class BookingService {
         }
     }
 
-
+    public Booking getBooking(int id) {
+        for (Booking booking : bookings) {
+            if (booking.getId() == id) {
+                return booking;
+            }
+        }
+        return null;
+    }
 }
