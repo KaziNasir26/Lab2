@@ -35,7 +35,7 @@ public class Pet extends Entity {
         this.type = type;
     }
 
-    public String getBreed() {
+    public  getBreed() {
         return breed;
     }
 
