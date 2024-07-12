@@ -18,7 +18,13 @@ public class ReservationService {
             }
         }
     }
-
+    public Reservation getReservation(int id) {
+        for (Reservation reservation : reservations) {
+            if (reservation.getId() == id) {
+                return reservation;
+            }
+        }
+        return null;
 
     }
 }
