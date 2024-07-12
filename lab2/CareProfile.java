@@ -14,5 +14,36 @@ public class CareProfile extends Entity {
         this.petId = petId;
     }
 
+    // Getters and setters
+    public String getFeedingInstructions() {
+        return feedingInstructions;
+    }
 
+    public void setFeedingInstructions(String feedingInstructions) {
+        this.feedingInstructions = feedingInstructions;
+    }
+
+    public String getMedicationList() {
+        return medicationList;
+    }
+
+    public void setMedicationList(String medicationList) {
+        this.medicationList = medicationList;
+    }
+
+    public String getMedicationInstructions() {
+        return medicationInstructions;
+    }
+
+    public void setMedicationInstructions(String medicationInstructions) {
+        this.medicationInstructions = medicationInstructions;
+    }
+
+    public int getPetId() {
+        return petId;
+    }
+
+    public void setPetId(int petId) {
+        this.petId = petId;
+    }
 }
