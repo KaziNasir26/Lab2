@@ -12,7 +12,7 @@ public class BillingService {
 
     public void updateBilling(Billing billing) {
         for (int i = 0; i < billings.size(); i++) {
-            if (billings.get(i).getId() == billing.getId()) {
+             (billings.get(i).getId() == billing.getId()) {
                 billings.set(i, billing);
                 break;
             }
